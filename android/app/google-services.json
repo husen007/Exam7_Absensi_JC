@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736174370736",
+    "project_id": "examreactnative",
+    "storage_bucket": "examreactnative.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736174370736:android:98e15073b3b4feaaddf075",
+        "android_client_info": {
+          "package_name": "com.exam7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736174370736-vtnq8lkdphfje32gmkur7tfile9668ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-Ulz667Bm_sdccXmVD8VoANBldTFb2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736174370736-vtnq8lkdphfje32gmkur7tfile9668ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
