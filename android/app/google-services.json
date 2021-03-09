@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "736174370736",
-    "project_id": "examreactnative",
-    "storage_bucket": "examreactnative.appspot.com"
+    "project_number": "801748911194",
+    "firebase_url": "https://nativenaufala-default-rtdb.firebaseio.com",
+    "project_id": "nativenaufala",
+    "storage_bucket": "nativenaufala.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:736174370736:android:98e15073b3b4feaaddf075",
+        "mobilesdk_app_id": "1:801748911194:android:24e6cb3cbcf96198b70463",
         "android_client_info": {
-          "package_name": "com.exam7"
+          "package_name": "com.absensiapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "736174370736-vtnq8lkdphfje32gmkur7tfile9668ih.apps.googleusercontent.com",
+          "client_id": "801748911194-4jt1mgcau17aceo71vqf2g5qej4q8p4k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAO-Ulz667Bm_sdccXmVD8VoANBldTFb2U"
+          "current_key": "AIzaSyAADwu7O1hZE4-iG6lu5S_qEVr1BiCABa4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "736174370736-vtnq8lkdphfje32gmkur7tfile9668ih.apps.googleusercontent.com",
+              "client_id": "801748911194-4jt1mgcau17aceo71vqf2g5qej4q8p4k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

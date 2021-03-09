@@ -1,6 +1,5 @@
 apply plugin: "com.android.application"
 apply plugin: 'com.google.gms.google-services'
-
 import com.android.build.OutputFile
 
 /**
@@ -130,15 +129,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.exam7"
+        applicationId "com.absensiapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-         multiDexEnabled true // <-- ADD THIS in the defaultConfig section
-         missingDimensionStrategy 'react-native-camera', 'general' // <--- insert this line
-
-
+        multiDexEnabled true
+        missingDimensionStrategy 'react-native-camera', 'general' 
     }
     splits {
         abi {
@@ -187,9 +184,8 @@ android {
 
 dependencies {
     implementation project(':react-native-camera')
-    implementation 'androidx.multidex:multidex:2.0.1'  // <-- ADD THIS DEPENDENCY
+    implementation 'androidx.multidex:multidex:2.0.1'
     implementation platform('com.google.firebase:firebase-bom:26.5.0')
-    implementation 'com.google.firebase:firebase-analytics'
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
